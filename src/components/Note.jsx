@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 function Note(props) {
   function handleClick() {
@@ -10,7 +11,10 @@ function Note(props) {
     <div className="note">
       <h1>{props.heading}</h1>
       <p>{props.paragraph}</p>
-      <button onClick={handleClick}> DELETE</button>
+      <button onClick={handleClick}>
+        {" "}
+        <DeleteIcon />
+      </button>
     </div>
   );
 }
