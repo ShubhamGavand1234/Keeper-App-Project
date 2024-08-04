@@ -61,10 +61,16 @@ footer p {
   margin-right: 10px;
   color: #f5ba13;
   border: none;
-  width: 36px;
+  /* width: 55px; */
+  padding: 5px;
   height: 36px;
   cursor: pointer;
   outline: none;
+  border-radius: 5px;
+}
+
+.note button:hover {
+  background-color: #1894c1;
 }
 
 form {
