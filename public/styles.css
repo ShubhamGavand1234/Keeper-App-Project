@@ -7,7 +7,9 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background-color: #004f8c;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  /* background: #eee; */
   padding: 0 16px;
 }
 
@@ -59,7 +61,7 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #0b19d6;
   border: none;
   width: 36px;
   height: 36px;
